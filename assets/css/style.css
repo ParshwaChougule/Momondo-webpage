@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Header Section Start */
+header{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    padding: 0px 125px;
+    display: flex;
+    background: #131E3A;
+    align-items: center;
+    justify-content: space-between ;
+}
+header ul li{
+    margin-right: 15px;
+    display: inline-block;
+    
+}
+header ul li a{
+    font-weight: 600;
+}
+header ul li a.active{
+    color: #CD375D;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner{
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    padding: 0px 125px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.banner h1{
+    font-size: 45px;
+    top: 100px;
+    position: absolute;
+    font-weight: normal;
+}
+.banner h2{
+    font-size: 25PX;
+    top: 220px;
+    position: absolute;
+}
+.banner form{
+    width: 75%;
+    height: 100px;
+    bottom: 20px;
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: #5C327A;
+}
+.banner form button{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    font-weight: 500;
+    background: #633b7f;
+    border: none;
+}
+.banner form button.active{
+    background: #FC2D3B;
+}
+.banner form label{
+    display: none;
+}
+.banner form .searchform{
+    margin-top: 10px;
+}
+.banner form .searchform input,
+.banner form .searchform select{
+    height: 30px;
+    margin-right: 5px;
+}
+.banner form .smt{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+/* /Banner Section End */
+
+/* Fun Section Start */
+.fun{
+    width: 100%;
+    height: 300px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/mountain.jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.fun ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fun ul li{
+    width: 130px;
+    height: 100px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    list-style: none;
+    background: rgba(0,0,0,0.6);
+}
+.fun ul li h4,
+.fun ul li h6{
+    padding-top: 10px;
+}
+/* /Fun Section End */
+
+/* Travel Section Start */
+.travel{
+    width: 100%;
+    height: 250PX;
+    padding: 75px 125px;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/banner3.jpeg);
+    background-size: 100% 100%;
+}
+.travel P{
+    margin-top: 30PX;
+}
+.travel label{
+    display: none;
+}
+.travel input{
+    width: 280px;
+    height: 30px;
+    margin-top: 30px;
+}
+.travel button{
+    width: 80PX;
+    height: 30px;
+    margin-left: 8px;
+}
+/* /Travel Section End */
+
+/* Destination Section Start */
+.Destination{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 50px 125px;
+    background: #131E3A;
+}
+.Destination h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Destination ul{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: 300PX 300PX;
+    grid-gap: 10px;
+}
+.Destination ul li{
+    list-style: none; 
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+/* /Destination Section End */
