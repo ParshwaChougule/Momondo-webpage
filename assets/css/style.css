@@ -82,12 +82,12 @@ header ul li a.active{
 .banner form .searchform input,
 .banner form .searchform select{
     height: 30px;
-    margin-right: 5px;
+    margin-right: 5 px;
 }
 .banner form .smt{
     width: 80px;
     height: 80px;
-    margin-left: 20px;
+    margin-left: 210px;
     border-radius: 50%;
 }
 /* /Banner Section End */
@@ -154,12 +154,12 @@ header ul li a.active{
 /* Destination Section Start */
 .Destination{
     width: 100%;
-    height: auto;
-    color: #fff;
+    height: auto;       
     padding: 50px 125px;
     background: #131E3A;
 }
 .Destination h2{
+    color: #fff;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -172,7 +172,87 @@ header ul li a.active{
 .Destination ul li{
     list-style: none; 
     border: 2px solid #fff;
+    background: #fff;
     border-radius: 5px;
     margin: 10px;
 }
+.Destination ul li img{
+    width: 209px;
+    height: 140px;
+}
+.Destination ul li h5{
+    margin-top: 20px;
+    text-align: center;
+}
+.Destination ul li span{
+    color: #F7D000;
+}
+.Destination ul li p{
+    margin-top: 20px;
+    text-align: center;
+}
 /* /Destination Section End */
+
+/* Estimate section Start */
+.estimate{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 125px;
+    color: #fff;
+    background: #664CAD;
+}
+.estimate h2,
+.estimate h3{
+    font-weight: bold;
+}
+.estimate label{
+    display: none;
+}
+.estimate input,
+.estimate select,
+.estimate button{
+    width: 140px;
+    height: 30px;
+    margin-top: 70px;
+    margin-right: 30PX;
+}
+.estimate img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* /Estimate section End */
+
+/* Blog Section Start */
+.blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+}
+.blog h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.blog h2+p{
+    text-align: center;
+}
+.blog-content{
+    margin: 10px auto;
+    display: flex;
+}
+.blog-content div{
+    display: flex;
+    padding: 10px;
+}
+.blog-content img{
+    width: 150px;
+    height: 150px;
+}
+.blog-content div div{
+    display: inline;
+}
+.blog-content div .bdr{
+    border-bottom: 2px red solid;
+}
+/* /Blog Section End */
